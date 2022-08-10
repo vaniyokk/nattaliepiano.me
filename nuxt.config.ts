@@ -6,17 +6,21 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
-    vite: {
-        plugins: [
-            Components({
-                resolvers: [
-                    IconsResolver(),
-                ],
-            }),
-            Icons({
-                // the feature below is experimental ⬇️
-                autoInstall: true
-            })
-        ]
-    }
+  target: 'static',
+  router: {
+    base: '/nattaliepiano.me/'
+  },
+  vite: {
+    plugins: [
+      Components({
+        resolvers: [
+          IconsResolver(),
+        ],
+      }),
+      Icons({
+        // the feature below is experimental ⬇️
+        autoInstall: true
+      })
+    ]
+  }
 })
