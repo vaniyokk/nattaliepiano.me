@@ -3,46 +3,39 @@
     <ul>
       <li>
         <a target="_blank" href="https://open.spotify.com/album/4IfZTsLQIQ3ngQ2hOjsweV">
-          <SpotifyIcon />
+          <i-cib-spotify />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://music.youtube.com/playlist?list=OLAK5uy_mpC_0Gdx77sZAk9DlaWoVDiMuGPeZBj-g">
-          <AmazonIcon />
+          <i-cib-amazon />
         </a>
       </li>
       <li>
         <a href="https://www.deezer.com/album/332672847">
-          <DeezerIcon />
+          <i-cib-deezer />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://music.youtube.com/playlist?list=OLAK5uy_mpC_0Gdx77sZAk9DlaWoVDiMuGPeZBj-g">
-          <YoutubeIcon />
+          <i-cib-youtube />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://instagram.com/nattaliepiano">
-          <InstagramIcon />
+          <i-cib-instagram />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://geo.music.apple.com/us/album/waltz-of-a-woman/1632806501?app=music&ls=1">
-          <AppleMusicIcon />
+          <i-cib-apple-music />
         </a>
       </li>
     </ul>
   </nav>
 </template>
 
-<script setup>
-import SpotifyIcon from "~icons/cib/spotify"
-import AmazonIcon from "~icons/cib/amazon"
-import YoutubeIcon from "~icons/cib/youtube"
-import DeezerIcon from "~icons/cib/deezer"
-import AppleMusicIcon from "~icons/cib/apple-music"
-import InstagramIcon from "~icons/cib/instagram"
-</script>
+
 
 <style>
 .socials {
@@ -62,6 +55,11 @@ import InstagramIcon from "~icons/cib/instagram"
   padding: 12px 8px;
   transform: scale(100%);
   transition: transform 0.2s ease;
+}
+
+.socials img {
+  width: 24px;
+  height: 24px;
 }
 
 .socials li:hover {

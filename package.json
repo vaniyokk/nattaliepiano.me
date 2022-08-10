@@ -12,6 +12,7 @@
   "dependencies": {
     "@iconify-json/cib": "^1.1.2",
     "bulma": "^0.9.4",
-    "unplugin-icons": "^0.14.8"
+    "unplugin-icons": "^0.14.8",
+    "unplugin-vue-components": "^0.22.4"
   }
 }
