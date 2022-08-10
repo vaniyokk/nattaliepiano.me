@@ -2,9 +2,9 @@
   <Header />
   <main>
     <div class="left">
-      <div class="fullname">Nataliia Kuzmina</div>
+      <div class="fullname">Natalie Kuzmina</div>
       <h1 class="album-name">Waltz<br /> of a<br /> Woman</h1>
-      <button>Listen Now</button>
+      <a class="cta-link" href="https://onerpm.link/265461647136" _target="blank">Listen Now</a>
     </div>
     <img class="me" src="~/assets/images/me.jpg" alt="me">
     <div class="album-container">
@@ -71,17 +71,26 @@ main {
   transform: translate(-50%, -60%);
 }
 
-.left button {
+.left .cta-link {
+  display: block;
+  text-align: center;
   background: transparent;
   box-shadow: none;
   border: 1px solid #000;
   padding: 12px 32px;
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  transform: all 1s linear;
 }
 
-h1 {
+.left .cta-link:hover {
+  background: #000;
+  color: #fff;
+}
+
+.album-name {
   font-size: 58px;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 </style>

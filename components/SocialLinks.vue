@@ -7,7 +7,7 @@
         </a>
       </li>
       <li>
-        <a target="_blank" href="https://music.youtube.com/playlist?list=OLAK5uy_mpC_0Gdx77sZAk9DlaWoVDiMuGPeZBj-g">
+        <a target="_blank" href="https://music.amazon.com/albums/B0B5PKCYWX">
           <i-cib-amazon />
         </a>
       </li>
