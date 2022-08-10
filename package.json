@@ -7,10 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@iconify-json/cib": "^1.1.2",
     "nuxt": "3.0.0-rc.6"
   },
   "dependencies": {
+    "@iconify-json/cib": "^1.1.2",
     "bulma": "^0.9.4",
     "unplugin-icons": "^0.14.8"
   }
