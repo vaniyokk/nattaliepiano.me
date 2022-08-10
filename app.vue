@@ -80,7 +80,7 @@ main {
   padding: 12px 32px;
   margin-top: 20px;
   font-size: 16px;
-  transform: all 1s linear;
+  transition: all .2s linear;
 }
 
 .left .cta-link:hover {
