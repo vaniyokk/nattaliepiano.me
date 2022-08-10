@@ -6,9 +6,6 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
-  app: {
-    baseURL: '/nattaliepiano.me'
-  },
   vite: {
     plugins: [
       Components({
