@@ -36,33 +36,32 @@
 </template>
 
 
-
-<style>
+<style lang="scss">
 .socials {
   position: fixed;
   right: 0;
   top: 47%;
   transform: translateY(-50%);
   margin-right: 28px;
-}
 
-.socials ul {
-  display: flex;
-  flex-direction: column;
-}
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
 
-.socials li {
-  padding: 12px 8px;
-  transform: scale(100%);
-  transition: transform 0.2s ease;
-}
+  li {
+    padding: 12px 8px;
+    transform: scale(100%);
+    transition: transform 0.2s ease;
 
-.socials img {
-  width: 24px;
-  height: 24px;
-}
+    &:hover {
+      transform: scale(150%)
+    }
+  }
 
-.socials li:hover {
-  transform: scale(150%)
+  img {
+    width: 24px;
+    height: 24px;
+  }
 }
 </style>
