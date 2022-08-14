@@ -3,32 +3,32 @@
     <ul>
       <li>
         <a target="_blank" href="https://open.spotify.com/album/4IfZTsLQIQ3ngQ2hOjsweV">
-          <i-cib-spotify />
+          <IconCib:spotify />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://music.amazon.com/albums/B0B5PKCYWX">
-          <i-cib-amazon />
+          <IconCib:amazon />
         </a>
       </li>
       <li>
         <a href="https://www.deezer.com/album/332672847">
-          <i-cib-deezer />
+          <IconCib:deezer />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://music.youtube.com/playlist?list=OLAK5uy_mpC_0Gdx77sZAk9DlaWoVDiMuGPeZBj-g">
-          <i-cib-youtube />
+          <IconCib:youtube />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://instagram.com/nattaliepiano">
-          <i-cib-instagram />
+          <IconCib:instagram />
         </a>
       </li>
       <li>
         <a target="_blank" href="https://geo.music.apple.com/us/album/waltz-of-a-woman/1632806501?app=music&ls=1">
-          <i-cib-apple-music />
+          <IconCib:apple-music />
         </a>
       </li>
     </ul>

@@ -1,0 +1,19 @@
+components:
+  language_switcher:
+    change_language: Змінити мову
+  theme_switcher:
+    theme: Тема
+    change_theme: Змінити тему
+
+pages:
+  index:
+    nav: Головна
+    title: Головна сторінка
+    listen_now: Прослухати
+    first_album_out: Перший альбом. Вже доступний
+  404:
+    title: Сторінку не знайдено
+  about:
+    nav: Інфо
+    title: Про мене
+    description: Це сторінка про мене та мою творчість

@@ -1,0 +1,20 @@
+components:
+  language_switcher:
+    change_language: change language
+  theme_switcher:
+    theme: theme
+    change_theme: change theme
+
+pages:
+  index:
+    nav: Home
+    title: Homepage
+    listen_now: Listen Now
+    first_album_out: First Album. Out Now
+  404:
+    title: page not found
+  about:
+    nav: about
+    title: about
+    description: this is a about page
+  

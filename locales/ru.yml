@@ -1,0 +1,19 @@
+components:
+  language_switcher:
+    change_language: Изменить язык
+  theme_switcher:
+    theme: Тема
+    change_theme: Изменить тему
+
+pages:
+  index:
+    nav: Главная
+    title: Главная страница
+    listen_now: Прослушать
+    first_album_out: Первый альбом. Уже доступен
+  404:
+    title: Страница не найдена
+  about:
+    nav: Обо мне
+    title: Обо мне
+    description: Это страница обо ме и моем творчестве
