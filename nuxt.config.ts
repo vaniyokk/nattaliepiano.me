@@ -17,14 +17,14 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      title: 'Nuxt 3 Awesome Starter',
-      titleTemplate: '%s - Nuxt 3 Awesome Starter',
+      title: 'Home',
+      titleTemplate: '%s | nattaliepiano',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: 'Nuxt 3 Awesome Starter',
+          content: 'nattaliepiano Personal Webpage',
         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }],
